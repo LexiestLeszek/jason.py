@@ -1,4 +1,4 @@
-# **JASON 🦲 - Minimalist Json-based Database for MVPs**
+# **JASON.py 🦲 - Minimalist Json-based Database for MVPs**
 
 Because sometimes your database needs to punch data in the face.
 
