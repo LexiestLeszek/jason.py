@@ -53,7 +53,7 @@ To provide a **lightweight, easy-to-use database solution** for MVP chatbots, al
    - If your chatbot grows beyond **1,000 active users**, consider switching to a database like **SQLite**, **PostgreSQL**, or **MongoDB**.
 
 2. **High Write Frequency:**
-   - If you need to write data frequently (e.g., logging every message), switch to a database optimized for high write throughput.
+   - If you need to write data frequently, switch to a database optimized for high write throughput.
 
 3. **Complex Queries:**
    - If you need advanced querying (e.g., filtering, sorting, aggregations), use a database with query support.
