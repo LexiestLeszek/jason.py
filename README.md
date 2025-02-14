@@ -13,7 +13,7 @@ Like the man himself, JASON is:
 
 If your application needs a database solution that's as direct as a Statham one-liner and hits as hard as his right hook, JASON is your guy. No fancy suits, no complicated dance moves - just raw, actionable data handling with two methods - load and save!
 
-A **minimalist, no-brainer, simple JSON-based database solution** for your MVP chatbots and apps that need NoSQL. Perfect for early-stage projects where simplicity and speed matter more than scalability. Jason is a simple json-based db solution for MVP chatbots and projects with up to 10k users and 100 concurrent users at a time. This project is v1, so bear in mind there might be some bugs and it might not work properly.
+A **minimalist, no-brainer, simple JSON-based database solution** for your MVP chatbots and apps that need NoSQL. Perfect for early-stage projects where simplicity and speed matter more than scalability. Jason is a simple json-based db solution for MVP chatbots and projects with up to 1k users and 100 concurrent users at a time. This project is v1, so bear in mind there might be some bugs and it might not work properly.
 
 ---
 
@@ -31,7 +31,7 @@ To provide a **lightweight, easy-to-use database solution** for MVP chatbots, al
    - Ideal for prototyping and testing ideas without the overhead of a full database.
 
 2. **Small to Medium User Base:**
-   - Works well for chatbots with **up to 10,000 active users**.
+   - Works well for chatbots with **up to 1,000 active users**.
    - Handles **up to 100 concurrent read/write operations per second** comfortably.
 
 3. **Simple Data Structure:**
@@ -50,7 +50,7 @@ To provide a **lightweight, easy-to-use database solution** for MVP chatbots, al
 
 ### **When to Switch to a More Serious Solution**
 1. **Large User Base:**
-   - If your chatbot grows beyond **10,000 active users**, consider switching to a database like **SQLite**, **PostgreSQL**, or **MongoDB**.
+   - If your chatbot grows beyond **1,000 active users**, consider switching to a database like **SQLite**, **PostgreSQL**, or **MongoDB**.
 
 2. **High Write Frequency:**
    - If you need to write data frequently (e.g., logging every message), switch to a database optimized for high write throughput.
@@ -138,7 +138,7 @@ To provide a **lightweight, easy-to-use database solution** for MVP chatbots, al
 
 ## **Limitations**
 
-- **Not for Large-Scale Systems:** Use for up to 10,000 active users.
+- **Not for Large-Scale Systems:** Use for up to 1,000 active users.
 - **No Advanced Queries:** Only supports basic read/write operations.
 - **Single-Instance Only:** Not suitable for distributed deployments.
 
@@ -146,7 +146,7 @@ To provide a **lightweight, easy-to-use database solution** for MVP chatbots, al
 
 ## **When to Upgrade**
 
-If your chatbot grows beyond 10,000 users or requires advanced features like transactions, consider switching to:
+If your chatbot grows beyond 1,000 users or requires advanced features like transactions, consider switching to:
 
 - **SQLite** for a lightweight SQL database.
 - **PostgreSQL** for a robust relational database.
