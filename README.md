@@ -163,7 +163,3 @@ Feel free to open issues or submit pull requests! This project is open-source an
 ## **License**
 
 MIT License. Use it freely for personal and commercial projects.
-
----
-
-This README provides a clear, concise overview of your JSON database solution, making it easy for developers to understand and use. It also sets realistic expectations for when to upgrade to a more robust solution. 🚀
