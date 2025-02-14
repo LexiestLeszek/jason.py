@@ -68,9 +68,9 @@ To provide a **lightweight, easy-to-use database solution** for MVP chatbots, al
 
 ## **Features**
 
-- **Simple JSON Storage:** Each user’s data is stored in a separate JSON file.
+- **Simple:** Each user’s data is stored in a separate JSON file.
 - **Async I/O:** Uses `aiofiles` for non-blocking file operations.
-- **Configurable Structure:** Define a default JSON structure for all users.
+- **One Schema To Rule Them All:** Define a single default JSON structure for all users.
 - **Atomic Writes:** Each user’s data is stored in a separate file, ensuring atomic writes.
 
 ---
