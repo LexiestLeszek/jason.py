@@ -72,6 +72,10 @@ To provide a **lightweight, easy-to-use database solution** for MVP chatbots, al
 - **Async I/O:** Uses `aiofiles` for non-blocking file operations.
 - **One Schema To Rule Them All:** Define a single default JSON structure for all users.
 - **Atomic Writes:** Each user’s data is stored in a separate file, ensuring atomic writes.
+- **Per-User Locking:** Ensures safe concurrent access using asyncio.Lock
+- **orjson Serialization:** Faster than standard JSON with optional pretty-printing
+- **Memory Safety:** Always returns copies of data to prevent accidental cache modification
+- **Cache Coherency:** Automatic cache clearing if final save fails
 
 ---
 
@@ -138,7 +142,7 @@ To provide a **lightweight, easy-to-use database solution** for MVP chatbots, al
 
 ## **Limitations**
 
-- **Not for Large-Scale Systems:** Use for up to 1,000 active users.
+- **Not for Large-Scale Systems:** Use for up to 1,000 active users, maybe 10,000 in some cases tops.
 - **No Advanced Queries:** Only supports basic read/write operations.
 - **Single-Instance Only:** Not suitable for distributed deployments.
 
@@ -146,7 +150,7 @@ To provide a **lightweight, easy-to-use database solution** for MVP chatbots, al
 
 ## **When to Upgrade**
 
-If your chatbot grows beyond 1,000 users or requires advanced features like transactions, consider switching to:
+If your chatbot grows beyond 1,000-10,000 users or requires advanced features like transactions, consider switching to:
 
 - **SQLite** for a lightweight SQL database.
 - **PostgreSQL** for a robust relational database.
