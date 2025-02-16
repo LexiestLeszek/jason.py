@@ -9,8 +9,9 @@ import orjson
 
 class JASON:
     """
-    A robust JSON-based database with atomic writes, orjson serialization,
-    and per-user locking. Maintains simple load/save interface.
+    A simple JSON-based database for MVP chatbots.
+    Each user's data is stored in a separate JSON file.
+    Maintains simple load/save interface.
     
     Features:
     - Atomic writes using temporary files
