@@ -7,7 +7,7 @@ Meet JASON - the JSON database that's as straightforward as its namesake, Jason 
 Like the man himself, JASON is:
 - Fast and furious with your data
 - Doesn't waste time with unnecessary complexity
-- Will transport your information safely (though maybe not in a fancy European car)
+- A safe transporter of your information (though maybe not in a fancy European car)
 - Completely bald-proof (we mean fault-proof)
 - Ready to kick NoSQL in the face
 
