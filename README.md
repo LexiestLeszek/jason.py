@@ -81,12 +81,12 @@ To provide a **lightweight, easy-to-use database solution** for MVP chatbots, al
 
 ## **Installation**
 
-1. Install the required dependencies:
+Option one: Install via pip:
    ```bash
-   pip install aiofiles
+   pip install jason-db
    ```
 
-2. Download the `jason.py` file and include it in your project.
+Option two: Download the `jason.py` file and include it in your project.
 
 ---
 
@@ -94,7 +94,7 @@ To provide a **lightweight, easy-to-use database solution** for MVP chatbots, al
 
 1. **Initialize the Database:**
    ```python
-   from json_db import JASON
+   from jason_db import JASON
 
    # Define the default structure for your JSON files
    DEFAULT_STRUCTURE = {
