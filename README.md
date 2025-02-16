@@ -13,7 +13,7 @@ Like the man himself, JASON is:
 
 If your application needs a database solution that's as direct as a Statham one-liner and hits as hard as his right hook, JASON is your guy. No fancy suits, no complicated dance moves - just raw, actionable data handling with two methods - load and save!
 
-A **minimalist, no-brainer, simple JSON-based database solution** for your MVP chatbots and apps that need NoSQL. Perfect for early-stage projects where simplicity and speed matter more than scalability. Jason is a simple json-based db solution for MVP chatbots and projects with up to 1k users and 100 concurrent users at a time. This project is v1, so bear in mind there might be some bugs and it might not work properly.
+A **minimalist, no-brainer, simple JSON-based database solution** for your MVP chatbots and apps that need NoSQL. Perfect for early-stage projects where simplicity and speed matter more than scalability. Jason is a simple json-based db solution for MVP chatbots and projects with up to 1k users and 100 concurrent users at a time. This project is early stage, so bear in mind there might be some bugs and it might not work properly.
 
 ---
 
