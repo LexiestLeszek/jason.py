@@ -21,6 +21,8 @@ A **minimalist, no-brainer, simple JSON-based database solution** for your MVP c
 
 To provide a **lightweight, easy-to-use database solution** for MVP chatbots, allowing developers to focus on building their bot logic without worrying about database setup or maintenance when you don't really have too many users to care about scalability.
 
+Each user should have unique User_id, which is used to access user's json. And each json has a standartized schema that was set during initialization (creation) of the database. That's it!
+
 ---
 
 ## **Conditions for Usage**
